@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Satisfy&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="book-now.css" rel="stylesheet">
+    
+   
+    <title>Beautiful Italy</title>
+</head>
+<body>
+
+    
+    <div id="header">
+     <nav class="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="lakes.html">Lakes</a></li>
+            <li><a href="mountains.html">Mountains</a></li>
+            <li><a href="seas.html">Seas</a></li>
+            <li><a href="book-now.html">Book now</a></li>
+          </ul>
+      </nav>
+      <h1>Book now the trip of your dream!</h1>
+  </div>
+  <div class="container">
+    <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+          <label for="fname">E-mail</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="e-mail" placeholder="Your e-mail..">
+        </div>
+      </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="australia">Germany</option>
+          <option value="canada">France</option>
+          <option value="usa">Spain</option>
+          <option value="usa">Italy</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+    </form>
+  </div>
+  </body>
+</html>
